@@ -1,0 +1,53 @@
+body{
+    color:#612406;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    width: 400px;
+    color: #612406;
+    height: 500px;
+}
+main #img{
+    background-image: url(./imgs/honey.jpg);
+    width: 360px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    margin-top: 25px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;    
+}
+#main{
+    background-color: #FBF7E3;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-size: 25px; 
+}
+.first-p{
+    font-weight: 900;
+}
+div span:last-of-type{
+    font-size: smaller;
+}
+#button{
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: -60px;
+}
+button{
+    border-radius: 80px;
+    background-color: #F3DF85;
+    width: 50%;
+    height: 50px;
+    border:none;
+    font-size: 1.5em;
+}
